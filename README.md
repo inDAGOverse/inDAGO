@@ -44,3 +44,19 @@ devtools::install_github("inDAGOverse/inDAGO")
 # Load and launch the app
 library(inDAGO)
 inDAGO::inDAGO()
+
+## 👥 Authors & Acknowledgements
+
+- **Authors / Creators**  
+  - Carmine Fruggiero (c.fruggiero@tigem.it)  
+  - Gaetano Aufiero (gaetano.aufiero@unina.it)
+
+- **Maintainer**  
+  - Carmine Fruggiero (c.fruggiero@tigem.it)
+
+- **Project Supervisor**  
+  - Nunzio D'Agostino (nunzio.dagostino@unina.it)
+
+## 📄 Article (Work in Progress)
+
+- Link: [Draft manuscript (coming soon)](URL)
