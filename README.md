@@ -39,7 +39,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 install.packages("devtools")     
 
 # Install inDAGO from GitHub
-devtools::install_github("CarmineFruggiero/inDAGO")
+devtools::install_github("inDAGOverse/inDAGO")
 
 # Load and launch the app
 library(inDAGO)
