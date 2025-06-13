@@ -52,7 +52,7 @@ inDAGO::inDAGO()
   - Carmine Fruggiero (c.fruggiero@tigem.it)  
   - Gaetano Aufiero (gaetano.aufiero@unina.it)
 
-- **Maintainer**  
+- **Designated maintainer for CRAN Repository (coming soon)**  
   - Carmine Fruggiero (c.fruggiero@tigem.it)
 
 - **Project Supervisor**  
