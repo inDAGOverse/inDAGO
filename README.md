@@ -21,15 +21,17 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
 1. **Quality Control**  
    Generating quality control metrics and graphical plots.
-1. **Sequence Pre‑processing**  
+2. **Sequence Pre‑processing**  
    Read trimming, low‑quality filtering, and adapter removal
-2. **Reference‑based Alignment**  
+3. **Genome indexing**
+   Index genome or genomes according to the selected approach (bulk or dual RNA‑seq)
+4. **Reference‑based Alignment**  
    Align reads according to the selected approach (bulk or dual RNA‑seq) 
-3. **Read Count Summarization**  
+5. **Read Count Summarization**  
    Generate gene or transcript level count matrices  
-4. **Exploratory Data Analysis**  
+6. **Exploratory Data Analysis**  
    PCA, clustering, heatmaps and more  
-5. **Differential Expression**  
+7. **Differential Expression**  
    Identify differentially expressed genes/transcripts across any comparison
 
 ## 📦 Installation
