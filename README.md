@@ -64,7 +64,8 @@ for (pac in bioc_pac) {
 }
 
 # Install devtools if you don’t have it yet
-install.packages("devtools")     
+if (!require("devtools", quietly = TRUE))
+  install.packages("devtools")
 
 # Install inDAGO from GitHub
 devtools::install_github("inDAGOverse/inDAGO")
