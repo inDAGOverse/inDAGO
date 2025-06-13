@@ -26,7 +26,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 2. **Reference‑based Alignment**  
    Align reads according to the selected approach (bulk or dual RNA‑seq) 
 3. **Read Count Summarization**  
-   Generate gene‑ or transcript‑level count matrices  
+   Generate gene or transcript level count matrices  
 4. **Exploratory Data Analysis**  
    PCA, clustering, heatmaps and more  
 5. **Differential Expression**  
