@@ -1,27 +1,25 @@
-# .onLoad
-.onLoad <- function(libname, pkgname) {
+.onAttach <- function(libname, pkgname) {
+  # Required Bioconductor packages
   required_pkgs <- c(
     "BiocManager", "XVector", "ShortRead", "S4Vectors", "rtracklayer",
     "Rsubread", "Rsamtools", "Rfastp", "limma", "HTSFilter",
     "edgeR", "Biostrings", "BiocGenerics"
   )
 
-  missing_pkgs <- c()
-
-  for (pkg in required_pkgs) {
-    if (!requireNamespace(pkg, quietly = TRUE)) {
-      missing_pkgs <- c(missing_pkgs, pkg)
-    }
-  }
+  # Find those not installed
+  missing_pkgs <- required_pkgs[!vapply(required_pkgs, requireNamespace, logical(1), quietly = TRUE)]
 
   if (length(missing_pkgs) > 0) {
-    message <- paste0(
-      "The following Bioconductor packages are missing:\n",
-      paste(missing_pkgs, collapse = ", "), "\n\n",
-      "To install them, run:\n",
-      "if (!requireNamespace(\"BiocManager\", quietly = TRUE)) install.packages(\"BiocManager\")\n",
-      "BiocManager::install(c(\"", paste(missing_pkgs, collapse = "\", \""), "\"))"
+    msg <- paste0(
+      "Missing Bioconductor packages: ",
+      paste(missing_pkgs, collapse = ", "),
+      ".\nInstall them via:\n",
+      "if (!requireNamespace(\"BiocManager\", quietly = TRUE))\n",
+      "  install.packages(\"BiocManager\")\n",
+      "BiocManager::install(c(\"",
+      paste(missing_pkgs, collapse = "\", \""),
+      "\"))"
     )
-    packageStartupMessage(message)
+    packageStartupMessage(msg)
   }
 }
