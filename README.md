@@ -63,7 +63,7 @@ for (pac in bioc_pac) {
     BiocManager::install(pac)
 }
 
-# Install devtools if you don’t have it yet
+# Install devtools if you don’t have it yet  
 if (!require("devtools", quietly = TRUE))
   install.packages("devtools")
 
