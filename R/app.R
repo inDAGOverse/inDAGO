@@ -284,7 +284,7 @@ ui <- bslib::page_navbar(
         htmltools::tags$a(
         shiny::icon("github"),
         "github",
-        href = "https://github.com/CarmineFruggiero/inDAGO",
+        href = "https://github.com/inDAGOverse/inDAGO",
         target = "_blank"
       )
     )),
