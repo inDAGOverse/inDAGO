@@ -1,0 +1,81 @@
+Package: inDAGO
+Title: A Shiny app for dual and bulk RNA-sequencing analysis
+Version: 1.0.0
+Authors@R:
+    person("Carmine", "Fruggiero", , "fruggierocarmine3@gmail.com", role = c("aut", "cre"))
+    person("Gaetano", "Aufiero", , "gaetano.aufiero@gmail.com", role = c("aut", "cre"))
+Description: inDAGO supports both dual and bulk RNA-seq, with the dual
+    RNA-seq functionality offering the flexibility to perform either a
+    sequential approach (where reads are mapped separately to each genome)
+    or a combined approach (where reads are aligned to a single merged
+    genome). The user-friendly interface automates the analysis process,
+    providing step-by-step guidance, making it easy for users to navigate
+    between different analysis steps, and download intermediate re-sults
+    and publication-ready plots. Thanks to code optimization and
+    parallelization in inDAGO, dual and bulk RNA-seq analyses can be
+    completed in a reasonable time without requiring ex-pensive
+    computational resources, just using a standard laptop with 16 GB of
+    RAM. inDAGO is organized into modules that handle key tasks, including
+    sequence pre-processing with quality control, reference-based sequence
+    alignment, read count summarization, explora-tory data analysis, and
+    the identification of differentially expressed genes or transcripts
+    across selected comparisons.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    bigtabulate,
+    BiocGenerics,
+    Biostrings,
+    bsicons,
+    bslib,
+    callr,
+    checkmate,
+    data.table,
+    dplyr,
+    DT,
+    edgeR,
+    fs,
+    ggplot2,
+    ggrepel,
+    grDevices,
+    heatmaply,
+    Hmisc,
+    htmltools,
+    HTSFilter,
+    limma,
+    magrittr,
+    matrixStats,
+    memuse,
+    methods,
+    paletteer,
+    parallel,
+    pheatmap,
+    plotly,
+    R.devices,
+    readr,
+    reshape2,
+    Rfastp,
+    rintrojs,
+    Rsamtools,
+    Rsubread,
+    rtracklayer,
+    S4Vectors,
+    seqinr,
+    shiny,
+    shinycssloaders,
+    shinyFiles,
+    shinyjs,
+    shinyWidgets,
+    ShortRead,
+    spsComps,
+    stats,
+    tibble,
+    tidyr,
+    upsetjs,
+    UpSetR,
+    XVector
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
