@@ -44,6 +44,7 @@ devtools::install_github("inDAGOverse/inDAGO")
 # Load and launch the app
 library(inDAGO)
 inDAGO::inDAGO()
+```
 
 ## 👥 Authors & Acknowledgements
 
