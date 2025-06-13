@@ -39,10 +39,8 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 ```r
 
 # Install Bioconductor dependencies if you don't have them yet
-
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-
 bioc_pac <- c(
   "XVector",
   "ShortRead",
@@ -57,14 +55,12 @@ bioc_pac <- c(
   "Biostrings",
   "BiocGenerics"
 ) 
-
 for (pac in bioc_pac) {
   if (!requireNamespace(pac, quietly = TRUE))
     BiocManager::install(pac)
 }
 
 # Install devtools if you don’t have it yet
-
 if (!require("devtools", quietly = TRUE))
   install.packages("devtools")
 
