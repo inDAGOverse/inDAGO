@@ -156,18 +156,13 @@
 #' @importFrom stats median
 #' @importFrom utils head write.table
 #' @importFrom S4Vectors isEmpty
-
+#' @importFrom shiny addResourcePath
+#'
 #' @export inDAGO
 #' @param ... other
 
 
 inDAGO <- function(...){
-
-  # Adds a directory of static resources to Shiny's web server, with the given path prefix.
-  shiny::addResourcePath(
-    prefix = "inDAGO",
-    directoryPath = system.file("www", package = "inDAGO")
-  )
 ##### Section3: user interface #####
 ui <- bslib::page_navbar(
   theme = bslib::bs_theme(
@@ -328,6 +323,3 @@ server <- function(input, output, session) {
 shiny::shinyApp(ui = ui, server = server)
 
 }
-
-
-
