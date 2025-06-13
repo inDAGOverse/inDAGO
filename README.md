@@ -37,6 +37,48 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 ## 📦 Installation
 
 ```r
+
+# Install Bioconductor dependencies if you don't have them yet
+
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+if (!require("XVector", quietly = TRUE))
+  BiocManager::install("XVector")
+
+if (!require("ShortRead", quietly = TRUE))
+  BiocManager::install("ShortRead")
+
+if (!require("S4Vectors", quietly = TRUE))
+  BiocManager::install("S4Vectors")
+
+if (!require("rtracklayer", quietly = TRUE))
+  BiocManager::install("rtracklayer")
+
+if (!require("Rsubread", quietly = TRUE))
+  BiocManager::install("Rsubread")
+
+if (!require("Rsamtools", quietly = TRUE))
+  BiocManager::install("Rsamtools")
+
+if (!require("Rfastp", quietly = TRUE))
+  BiocManager::install("Rfastp")
+
+if (!require("limma", quietly = TRUE))
+  BiocManager::install("limma")
+
+if (!require("HTSFilter", quietly = TRUE))
+  BiocManager::install("HTSFilter")
+
+if (!require("edgeR", quietly = TRUE))
+  BiocManager::install("edgeR")
+
+if (!require("Biostrings", quietly = TRUE))
+  BiocManager::install("Biostrings")
+
+if (!require("BiocGenerics", quietly = TRUE))
+  BiocManager::install("BiocGenerics")
+
 # Install devtools if you don’t have it yet
 install.packages("devtools")     
 
