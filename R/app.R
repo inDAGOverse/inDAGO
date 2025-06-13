@@ -163,6 +163,11 @@
 
 
 inDAGO <- function(...){
+# Create link to logo
+    shiny::addResourcePath(
+    prefix = "inDAGO",
+    directoryPath = system.file("www", package = "inDAGO")
+  )
 ##### Section3: user interface #####
 ui <- bslib::page_navbar(
   theme = bslib::bs_theme(
