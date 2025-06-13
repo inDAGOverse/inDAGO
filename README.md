@@ -23,7 +23,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
    Generating quality control metrics and graphical plots.
 2. **Sequence Pre‑processing**  
    Read trimming, low‑quality filtering, and adapter removal
-3. **Genome indexing**
+3. **Genome indexing** 
    Index genome or genomes according to the selected approach (bulk or dual RNA‑seq)
 4. **Reference‑based Alignment**  
    Align reads according to the selected approach (bulk or dual RNA‑seq) 
