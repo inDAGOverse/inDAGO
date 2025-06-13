@@ -1,14 +1,3 @@
-
-# Adds a directory of static resources to Shiny's web server, with the given path prefix.
-
-.onLoad <- function(libname, pkgname) {
-  # Create link to logo
-shiny::addResourcePath(
-  prefix = "inDAGO",
-  directoryPath = system.file("www", package = "inDAGO")
-)
-}
-
 # .onLoad
 .onLoad <- function(libname, pkgname) {
   required_pkgs <- c(
