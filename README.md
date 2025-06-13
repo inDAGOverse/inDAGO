@@ -60,7 +60,7 @@ bioc_pac <- c(
 
 for (pac in bioc_pac) {
   if (!requireNamespace(pac, quietly = TRUE))
-    BiocManager::install(pkg)
+    BiocManager::install(pac)
 }
 
 # Install devtools if you don’t have it yet
