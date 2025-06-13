@@ -189,7 +189,7 @@ ui <- bslib::page_navbar(
 
   # insert logo and link to github
   title = htmltools::tags$a(
-    href = "https://github.com/CarmineFruggiero/inDAGO",
+    href = "https://github.com/inDAGOverse/inDAGO",
     htmltools::tags$img(
       src = "inDAGO/favicon-96x96.png",
       height = "80px",
