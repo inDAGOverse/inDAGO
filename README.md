@@ -30,8 +30,8 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 5. **Read Count Summarization**  
    Generate gene or transcript level count matrices  
 6. **Exploratory Data Analysis**  
-   PCA, clustering, heatmaps and more  
-7. **Differential Expression**  
+   PCA, MDS, heatmaps and more  
+7. **Differential Expression Gene (DEG) analysis**  
    Identify differentially expressed genes/transcripts across any comparison
 
 ## 📦 Installation
