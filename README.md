@@ -1,6 +1,5 @@
 # inDAGO
-
-![web-app-manifest-512x512](https://github.com/user-attachments/assets/59898b50-2445-493c-851d-0c596749998b)
+![favicon-96x96](https://github.com/user-attachments/assets/4d325017-c452-4e8d-95a7-12f1f7ccd6f7)
 
 A Shiny app for dual and bulk RNA‑sequencing analysis
 
