@@ -32,7 +32,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 6. **Exploratory Data Analysis**  
    PCA, MDS, heatmaps and more  
 7. **Differential Expression Gene (DEG) analysis**  
-   Identify differentially expressed genes/transcripts across any comparison
+   Identify differentially expressed genes/transcripts across comparisons
 
 ## 📦 Installation
 
