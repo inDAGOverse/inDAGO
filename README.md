@@ -69,7 +69,7 @@ devtools::install_github("inDAGOverse/inDAGO")
 
 ```
 
-## 🚀 How to load launch the app
+## 🚀 How to load and launch the app
 
 ```r
 # Load and launch the app
