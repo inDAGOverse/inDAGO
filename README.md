@@ -3,7 +3,7 @@
 
 A Shiny app for dual and bulk RNA‑sequencing analysis
 
-## 🚀 Overview
+## 👀 Overview
 
 **inDAGO** supports both dual and bulk RNA‑seq workflows in a single, user-friendly Shiny interface. For dual RNA‑seq, you can choose between:
 
@@ -67,9 +67,15 @@ if (!require("devtools", quietly = TRUE))
 # Install inDAGO from GitHub
 devtools::install_github("inDAGOverse/inDAGO")
 
+```
+
+## 🚀 How to load launch the app
+
+```r
 # Load and launch the app
 library(inDAGO)
 inDAGO::inDAGO()
+
 ```
 
 ## 👥 Authors & Acknowledgements
