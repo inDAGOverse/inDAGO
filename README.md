@@ -83,7 +83,7 @@ To ensure uninterrupted execution during long time-consuming steps such as refer
 
 💤 Disable your computer’s sleep mode to prevent the system from stopping the analysis
 
-💡 Lower screen brightness to reduce power consumption during extended operations.
+💡 Lower screen brightness to reduce power consumption.
 
 These simple precautions can help avoid incomplete runs caused by system inactivity.
 
