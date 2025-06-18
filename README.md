@@ -78,6 +78,15 @@ inDAGO::inDAGO()
 
 ```
 
+## ⚙️ Tips for a Seamless Execution
+To ensure uninterrupted execution during long time-consuming steps such as genome alignment:
+
+💤 Disable your computer’s sleep mode to prevent the system from stopping the analysis
+
+💡 Lower screen brightness to reduce power consumption during extended operations.
+
+These simple precautions can help avoid incomplete runs caused by system inactivity.
+
 ## 👥 Authors & Acknowledgements
 
 - **Authors / Creators**  
