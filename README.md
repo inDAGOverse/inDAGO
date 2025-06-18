@@ -79,7 +79,7 @@ inDAGO::inDAGO()
 ```
 
 ## ⚙️ Tips for a Seamless Execution
-To ensure uninterrupted execution during long time-consuming steps such as genome alignment:
+To ensure uninterrupted execution during long time-consuming steps such as reference‑based alignment:
 
 💤 Disable your computer’s sleep mode to prevent the system from stopping the analysis
 
