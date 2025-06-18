@@ -79,13 +79,13 @@ inDAGO::inDAGO()
 ```
 
 ## ⚙️ Tips for a Seamless Execution
-To ensure uninterrupted execution during long time-consuming steps such as reference‑based alignment:
+To ensure execution during long time-consuming steps such as reference‑based alignment:
 
-💤 Disable your computer’s sleep mode to prevent the system from stopping the analysis
+💤 Disable sleep mode to keep your system active.
 
-💡 Lower screen brightness to reduce power consumption.
+💡 Reduce screen brightness to save power.
 
-These simple precautions can help avoid incomplete runs caused by system inactivity.
+These simple precautions can help avoid incomplete runs and unnecessary power consumption.
 
 ## 👥 Authors & Acknowledgements
 
