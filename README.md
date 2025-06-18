@@ -78,7 +78,7 @@ inDAGO::inDAGO()
 
 ```
 
-## ⚙️ Tips for a Seamless Execution
+## ⚙️ Tips for a seamless execution
 To ensure execution during long time-consuming steps such as reference‑based alignment:
 
 💤 Disable sleep mode to keep your system active.
