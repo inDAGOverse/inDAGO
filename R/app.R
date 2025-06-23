@@ -301,7 +301,7 @@ ui <- bslib::page_navbar(
     rintrojs::introBox(
     htmltools::h6("Exploratory Data Analysis"),
     data.step = 8,
-    data.intro = "The primary objective of Exploratory Data Analysis (EDA) is to examine and interpret data in relation to the specific biological question under investigation. This module generates a series of exploratory plots that are essential for identifying patterns, detecting potential outliers, and visualizing key insights.The required inputs include count matrices generated during the summarization step for each sample, as well as a matrix indicating the group assignments for each sample. Alternatively, users can manually defined group assignments though the interface."
+    data.intro = "The primary objective of Exploratory Data Analysis (EDA) is to examine and interpret data in relation to the specific biological question under investigation. This module generates a series of exploratory plots that are essential for identifying patterns, detecting potential outliers, and visualizing key insights.The required inputs include count matrices generated during the summarization step for each sample, as well as a matrix indicating the group assignments for each sample. Alternatively, users can manually define group assignments though the interface."
     ),
       EDAUserInterface("EDA")
     ), # End of nav_panel
