@@ -61,7 +61,7 @@ for (pac in bioc_pac) {
 }
 
 # Install devtools if you don’t have it yet
-if (!require("devtools", quietly = TRUE))
+if (!requireNamespace("devtools", quietly = TRUE))
   install.packages("devtools")
 
 # Install inDAGO from GitHub
