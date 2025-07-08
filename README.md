@@ -76,7 +76,7 @@ devtools::install_github("inDAGOverse/inDAGO")
 
 ```
 
-### Install inDAGO from CRAN
+### Install inDAGO from CRAN (https://cran.r-project.org/web/packages/inDAGO/index.html)
 
 ```r
 
