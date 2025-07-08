@@ -103,7 +103,7 @@ To ensure execution during long time-consuming steps such as reference‑based a
 
 These simple precautions can help avoid incomplete runs and unnecessary power consumption.
 
-## 👥 Authors & Acknowledgements
+#### 👥 Authors & Acknowledgements
 
 - **Authors / Creators**  
   - Carmine Fruggiero (c.fruggiero@tigem.it)  
@@ -115,6 +115,6 @@ These simple precautions can help avoid incomplete runs and unnecessary power co
 - **Project Supervisor**  
   - Nunzio D'Agostino (nunzio.dagostino@unina.it)
 
-## 📄 Article (Work in Progress)
+#### 📄 Article (Work in Progress)
 
 - Link: [Draft manuscript (coming soon)](URL)
