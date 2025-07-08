@@ -34,9 +34,9 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 7. **Differential Expression Gene (DEG) analysis**  
    Identify differentially expressed genes/transcripts across comparisons
 
-# 📦 Installation instructions
+## 📦 Installation instructions
 
-## Install the Bioconductor dependencies
+### Install the Bioconductor dependencies
 
 ```r
 
@@ -64,7 +64,7 @@ for (pac in bioc_pac) {
 
 ```
 
-## Install inDAGO from GitHub
+### Install inDAGO from GitHub
 
 ```r
 #Install devtools if you don’t have it yet
@@ -76,7 +76,7 @@ devtools::install_github("inDAGOverse/inDAGO")
 
 ```
 
-## Install inDAGO from CRAN
+### Install inDAGO from CRAN
 
 ```r
 
