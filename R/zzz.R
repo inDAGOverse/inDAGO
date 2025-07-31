@@ -21,6 +21,6 @@
       "  BiocManager::install(c(",
       paste0("\"", missing, "\"", collapse = ", "), "))\n"
     )
-    stop(msg)
+    packageStartupMessage(msg)
   }
 }
