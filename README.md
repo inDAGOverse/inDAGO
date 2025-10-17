@@ -3,6 +3,9 @@
 
 A Shiny app for dual and bulk RNA‑sequencing analysis
 
+<details>
+  <summary><strong>Mostra dettagli</strong> ▸</summary>
+
 ## 👀 Overview
 
 **inDAGO** supports both dual and bulk RNA‑seq workflows in a single, user-friendly Shiny interface. For dual RNA‑seq, you can choose between:
