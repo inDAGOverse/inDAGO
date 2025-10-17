@@ -5,38 +5,71 @@ A Shiny app for dual and bulk RNA‑sequencing analysis
 
 ## 👀 Overview
 
-**inDAGO** supports both dual and bulk RNA‑seq workflows in a single, user-friendly Shiny interface. For dual RNA‑seq, you can choose between:
+**inDAGO** supports both **dual** and **bulk RNA-seq** workflows within a single, user-friendly Shiny interface.  
 
-- **Sequential mapping**: map reads separately to each reference genome
-- **Combined mapping**: align reads to a single, merged reference genome
+For **dual RNA-seq**, users can choose between two alignment strategies:
 
-   <details>
-     <summary><strong>📊 See dual RNA-seq workflow </strong> ▸</summary>
+- **Sequential mapping** — reads are mapped separately to each reference genome  
+- **Combined mapping** — reads are aligned once to a merged reference genome  
 
-     <br>
+<details>
+  <summary><strong>📊 See dual RNA-seq workflow</strong> ▸</summary>
 
-![Figure1_dual_pipeline](https://github.com/user-attachments/assets/f2bd0532-af8e-4f5c-810f-aebfa071b2fd)
+  <br>
 
+  ![Figure1_dual_pipeline](https://github.com/user-attachments/assets/f2bd0532-af8e-4f5c-810f-aebfa071b2fd)
 
-     <p align="justify">
-Overview of the inDAGO dual RNA-seq workflow supporting sequential and combined map-ping approaches. The workflow consists of seven steps, with steps 1, 2, 5, 6 and 7 being common to both ap-proaches, while steps 3 and 4 are approach specific. Step 1: Quality control of raw mixed reads (organism A + organism B in FASTQ format) is performed using the Biostrings and ShortRead packages and graphical results are generated through ggplot2 and custom R scripts. Step 2: Filter-ing of raw mixed reads is performed using the Biostrings and ShorRead packages. Step 3: Ge-nome indexing of reference sequences (FASTA format) is performed with the Rsubread package and built-in R functions. In the sequential approach, separate genome indexing is done for each organism, while in the combined approach, a single concatenated genome is indexed. Step 4: Alignment of filtered reads to the reference genomes, their manipulation and the in-silico dis-crimination of mixed transcripts are conducted using Rsubread, Rsamtools and built-in R func-tions. In the sequential approach, a double mapping step is performed (one for each organism), while in the combined approach, a single mapping is followed by in silico read discrimination. Step 5: Mapped reads (in SAM/BAM format) are assigned to each organism and summarized us-ing the Rsubread package. Step 6: Summarized reads (in CSV format) are explored through sta-tistical analysis and visualizations using custom R code, along with the ggplot2, pheatmap, Hmisc, and RNAseQC packages. Step 7: Differentially expressed genes (DEGs) are identified using the edgeR and HTSFilter packages.
-     </p>
+  <p align="justify">
+  <em><strong>Figure:</strong> Overview of the inDAGO dual RNA-seq workflow.</em>  
+  The workflow supports both sequential and combined mapping approaches and consists of seven steps. Steps 1, 2, 5, 6, and 7 are common to both approaches, whereas Steps 3 and 4 differ.  
+  <br><br>
+  <strong>Step 1:</strong> Quality control of raw mixed reads (organism A + organism B, FASTQ format) using the <code>Biostrings</code> and <code>ShortRead</code> packages; visualizations are produced with <code>ggplot2</code> and custom R scripts.  
+  <br>
+  <strong>Step 2:</strong> Filtering of raw mixed reads using <code>Biostrings</code> and <code>ShortRead</code>.  
+  <br>
+  <strong>Step 3:</strong> Genome indexing of reference sequences (FASTA) performed with <code>Rsubread</code>. In the sequential approach, each organism is indexed separately; in the combined approach, a concatenated genome is indexed once.  
+  <br>
+  <strong>Step 4:</strong> Alignment of filtered reads, manipulation of SAM/BAM files, and in-silico discrimination of mixed transcripts using <code>Rsubread</code>, <code>Rsamtools</code>, and base R functions. The sequential approach performs two mappings (one per organism), while the combined approach performs a single mapping followed by computational read separation.  
+  <br>
+  <strong>Step 5:</strong> Assignment and summarization of mapped reads for each organism using <code>Rsubread</code>.  
+  <br>
+  <strong>Step 6:</strong> Exploration of summarized counts through statistical and graphical analysis using <code>ggplot2</code>, <code>pheatmap</code>, <code>Hmisc</code>, and <code>RNAseQC</code>.  
+  <br>
+  <strong>Step 7:</strong> Identification of differentially expressed genes (DEGs) with <code>edgeR</code> and <code>HTSFilter</code>.  
+  </p>
 
-   </details>
+</details>
 
-   <details>
-     <summary><strong>📊 See bulk RNA-seq workflow </strong> ▸</summary>
+<details>
+  <summary><strong>📊 See bulk RNA-seq workflow</strong> ▸</summary>
 
-     <br>
+  <br>
 
-![Figure2_bulk_pipeline](https://github.com/user-attachments/assets/28c26e6e-3651-45c0-9f76-319e9705481a)
+  ![Figure2_bulk_pipeline](https://github.com/user-attachments/assets/28c26e6e-3651-45c0-9f76-319e9705481a)
 
+  <p align="justify">
+  <em><strong>Figure:</strong> Overview of the inDAGO bulk RNA-seq workflow.</em>  
+  The bulk RNA-seq workflow follows seven key steps, mirroring the dual workflow but focused on a single organism.  
+  <br><br>
+  <strong>Step 1:</strong> Quality control of raw reads.  
+  <br>
+  <strong>Step 2:</strong> Filtering of low-quality sequences.  
+  <br>
+  <strong>Step 3:</strong> Genome indexing of the reference genome (FASTA).  
+  <br>
+  <strong>Step 4:</strong> Alignment of reads to the reference.  
+  <br>
+  <strong>Step 5:</strong> Summarization of mapped reads by biological unit (e.g., gene).  
+  <br>
+  <strong>Step 6:</strong> Statistical exploration and visualization of read counts.  
+  <br>
+  <strong>Step 7:</strong> Identification of differentially expressed genes (DEGs).  
+  <br><br>
+  The bulk RNA-seq workflow uses the same core set of R packages as the dual pipeline, ensuring consistency and reproducibility across analyses.
+  </p>
 
-     <p align="justify">
-Overview of the inDAGO bulk RNA-seq workflow. The inDAGO workflow for bulk RNA-seq analysis consists of seven key steps that trace the full analytical process, ultimately leading to the identification of differentially expressed genes (DEGs) between experimental conditions. Step 1: Quality control of raw reads. Step 2: Filtering of low-quality sequences. Step 3: Genome index-ing of reference genome (FASTA). Step 4: Alignment of reads to the reference. Step 5: Summa-rization of mapped reads by biological units (e.g., genes). Step 6: Statistical exploration of read counts. Step 7: Identification of differentially expressed genes. The bulk RNA-seq workflow fol-lows the same sequence and uses the same underlying packages as the dual RNA-seq workflow.
-     </p>
+</details>
 
-   </details>
    
 The interface walks you step‑by‑step through the entire analysis, from raw reads to publication‑ready plots, and lets you:
 
