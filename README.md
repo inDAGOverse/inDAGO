@@ -90,7 +90,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
   <br>
 
-<img src="https://github.com/user-attachments/assets/d67cf139-1c9b-45c3-af46-a25f5acb484b" width="800" alt="Quality Control Module Outputs"/>
+<img src="https://github.com/user-attachments/assets/d67cf139-1c9b-45c3-af46-a25f5acb484b" width="1000" alt="Quality Control Module Outputs"/>
 
   <p align="justify">
   <em><strong>Figure:</strong> Quality Control Module Outputs.</em>  
@@ -123,7 +123,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
   <br>
 
-<img src="https://github.com/user-attachments/assets/2f00b130-a2de-49c8-b8d9-887fb0cfc140" width="700" alt="Exploratory Data Analysis"/>
+<img src="https://github.com/user-attachments/assets/2f00b130-a2de-49c8-b8d9-887fb0cfc140" width="800" alt="Exploratory Data Analysis"/>
 
   <p align="justify">
   <em><strong>Figure:</strong> Exploratory Data Analysis Module Outputs.</em>  
