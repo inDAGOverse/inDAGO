@@ -56,7 +56,9 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
    PCA, MDS, heatmaps and more
    <details>
      <summary><strong>📊 See plots</strong> ▸</summary>
+      
           <br>
+   
 ![Figure5](https://github.com/user-attachments/assets/2f00b130-a2de-49c8-b8d9-887fb0cfc140)
 
      <p align="justify">
@@ -71,7 +73,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
      (E) saturation plot.
 Together, these visualizations provide a comprehensive overview of the exploratory data analysis results and the underlying characteristics of the count data.
      </p>
-
+     
    </details>
    
 9. **Differential Expression Gene (DEG) analysis**  
