@@ -35,10 +35,10 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
    Identify differentially expressed genes/transcripts across comparisons
 
 <details>
-  <summary><strong>installation instructions</strong> ▸</summary>
+  <summary>**📦 INSTALLATION INSTRUCTIONS** ▸</summary>
 
 
-## 📦 How to install inDAGO from CRAN or GitHub
+## How to install inDAGO from CRAN or GitHub
 
 ### Install the Bioconductor dependencies
 
