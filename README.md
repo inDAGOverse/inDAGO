@@ -43,9 +43,9 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
 | OS | Command or Link |
 |----|-----------------|
-| **Windows** | [Download R for Windows](https://cran.r-project.org/bin/windows/base/) and run the `.exe` installer.<br>*(Optional)*: [Install Rtools](https://cran.r-project.org/bin/windows/Rtools/) if you plan to compile packages. |
-| **macOS** | [Download R for macOS](https://cran.r-project.org/bin/macosx/) and run the `.pkg` installer.<br>**Homebrew alternative:**<br>`brew install r` |
-| **Ubuntu / Debian** | ```bash<br>sudo apt update && sudo apt install --no-install-recommends software-properties-common dirmngr<br>wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc<br>sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"<br>sudo apt update && sudo apt install r-base r-base-dev<br>``` |
+| **Windows** | [Download R for Windows](https://cran.r-project.org/bin/windows/base/) and run the `.exe` installer.
+| **macOS** | [Download R for macOS](https://cran.r-project.org/bin/macosx/) and run the `.pkg` installer.
+
 
 ---
 
@@ -56,8 +56,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 | OS | Command or Link |
 |----|-----------------|
 | **Windows** | Download the `.exe` installer and run it. |
-| **macOS** | Download the `.dmg` installer and drag RStudio into Applications.<br>**Homebrew alternative:** `brew install --cask rstudio` |
-| **Ubuntu / Debian** | ```bash<br>wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-latest-amd64.deb<br>sudo dpkg -i rstudio-latest-amd64.deb || sudo apt -f install<br>``` |
+| **macOS** | Download the `.dmg` installer and drag RStudio into Applications.
 
 ---
 
