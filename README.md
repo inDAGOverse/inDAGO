@@ -65,7 +65,8 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 ```bash
 R --version
 Rscript -e 'cat(R.version.string, "\n")'
-   
+```
+  
 </details>
 <details>
    <summary><strong>💻 INSTALLATION GUIDE: INDAGO</strong> ▸</summary>
