@@ -3,9 +3,6 @@
 
 A Shiny app for dual and bulk RNA‑sequencing analysis
 
-<details>
-  <summary><strong>Mostra dettagli</strong> ▸</summary>
-
 ## 👀 Overview
 
 **inDAGO** supports both dual and bulk RNA‑seq workflows in a single, user-friendly Shiny interface. For dual RNA‑seq, you can choose between:
@@ -36,6 +33,10 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
    PCA, MDS, heatmaps and more  
 7. **Differential Expression Gene (DEG) analysis**  
    Identify differentially expressed genes/transcripts across comparisons
+
+<details>
+  <summary><strong>## 📦 How to install inDAGO from CRAN or GitHub</strong> ▸</summary>
+
 
 ## 📦 How to install inDAGO from CRAN or GitHub
 
