@@ -54,6 +54,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
    Generate gene or transcript level count matrices  
 7. **Exploratory Data Analysis**  
    PCA, MDS, heatmaps and more
+   
    <details>
      <summary><strong>📊 See plots</strong> ▸</summary>
       
