@@ -67,7 +67,6 @@ R --version
 Rscript -e 'cat(R.version.string, "\n")'
    
 </details>
-
 <details>
    <summary><strong>💻 INSTALLATION GUIDE: INDAGO</strong> ▸</summary>
 
