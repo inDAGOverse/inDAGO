@@ -17,7 +17,7 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
 
   <br>
 
-<img src="https://github.com/user-attachments/assets/f2bd0532-af8e-4f5c-810f-aebfa071b2fd" width="400" alt="Dual RNA-seq workflow"/>
+<img src="https://github.com/user-attachments/assets/f2bd0532-af8e-4f5c-810f-aebfa071b2fd" width="700" alt="Dual RNA-seq workflow"/>
 
 
   <p align="justify">
