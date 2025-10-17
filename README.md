@@ -37,7 +37,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 <details>
   <summary><strong>💻 INSTALLATION GUIDE: R AND RSTUDIO</strong> ▸</summary>
 
-### 📦 1. Install R
+###  1. Install R
 
 **Official site:** [CRAN R Project](https://cran.r-project.org/)
 
@@ -49,7 +49,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
 ---
 
-### 🧭 2. Install RStudio (Posit Desktop)
+###  2. Install RStudio (Posit Desktop)
 
 **Official site:** [Posit RStudio Desktop](https://posit.co/download/rstudio-desktop/)
 
@@ -61,7 +61,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
 ---
 
-### 🧪 3. Verify installation
+###  3. Verify installation
 ```bash
 R --version
 Rscript -e 'cat(R.version.string, "\n")'
