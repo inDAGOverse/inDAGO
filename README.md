@@ -89,8 +89,8 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
      <summary><strong>📊 See plots</strong> ▸</summary>
 
      <br>
-
-<img src="https://github.com/user-attachments/assets/4d55ecb6-6277-4971-bd4e-e25fe0e0eb29" width="700" alt="Quality controll"/>
+     
+<img src="https://github.com/user-attachments/assets/4d55ecb6-6277-4971-bd4e-e25fe0e0eb29" width="400" alt="Quality control"/>
 
 
      <p align="justify">
