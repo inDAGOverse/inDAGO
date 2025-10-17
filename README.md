@@ -217,7 +217,6 @@ bioc_pac <- c(
   "rtracklayer",
   "Rsubread",
   "Rsamtools",
-  "Rfastp",
   "limma",
   "HTSFilter",
   "edgeR",
