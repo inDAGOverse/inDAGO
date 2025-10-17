@@ -87,6 +87,7 @@ devtools::install_github("inDAGOverse/inDAGO")
 install.packages("inDAGO")
 
 ```
+</details>
 <details>
    <summary><strong>🚀 HOW TO LOAD AND LAUNCH THE APP</strong> ▸</summary>
 
@@ -96,6 +97,7 @@ library(inDAGO)
 inDAGO::inDAGO()
 
 ```
+</details>
 <details>
    <summary><strong>⚙️ TIPS FOR A SEAMLESS EXECUTION</strong> ▸</summary>
    
@@ -107,6 +109,7 @@ To ensure execution during long time-consuming steps such as reference‑based a
 
 These simple precautions can help avoid incomplete runs and unnecessary power consumption.
 
+</details>
 <details>
    <summary><strong>👥 AUTHORS & ACKNOWLEDGEMENTS</strong> ▸</summary>
 
@@ -119,4 +122,4 @@ These simple precautions can help avoid incomplete runs and unnecessary power co
 
 - **Project Supervisor**  
   - Nunzio D'Agostino (nunzio.dagostino@unina.it)
-
+</details>
