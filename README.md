@@ -97,7 +97,9 @@ Together, these visualizations provide a comprehensive overview of the different
   </p>
 
 </details>
-   
+
+<br>
+<br>
 
 <details>
   <summary><strong>💻 INSTALLATION GUIDE: R AND RSTUDIO</strong> ▸</summary>
