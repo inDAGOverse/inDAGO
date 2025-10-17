@@ -45,7 +45,8 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
 
   <br>
 
-  ![Figure2_bulk_pipeline](https://github.com/user-attachments/assets/28c26e6e-3651-45c0-9f76-319e9705481a)
+![Picture1](https://github.com/user-attachments/assets/6e73d380-1b5e-4279-a9dd-1eff7dd322c3)
+
 
   <p align="justify">
   <em><strong>Figure:</strong> Overview of the inDAGO bulk RNA-seq workflow.</em>  
