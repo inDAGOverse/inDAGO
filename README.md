@@ -17,7 +17,12 @@ The interface walks you step‑by‑step through the entire analysis, from raw r
 
 Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard laptop (16 GB RAM), so you don’t need access to a high‑performance cluster.
 
-<details>
+## 🔧 Key Modules
+
+1. **Quality Control**  
+   Generates quality control metrics and graphical plots.
+
+   <details>
      <summary><strong>📊 See plots</strong> ▸</summary>
 
      <br>
@@ -37,6 +42,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
      </p>
 
    </details>
+
   
 3. **Sequence Pre‑processing**  
    Read trimming, low‑quality filtering, and adapter removal
