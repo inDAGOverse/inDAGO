@@ -46,7 +46,7 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
 
   <br>
   
-<img src="https://github.com/user-attachments/assets/6e73d380-1b5e-4279-a9dd-1eff7dd322c3" width="400" alt="Dual RNA-seq workflow"/>
+<img src="https://github.com/user-attachments/assets/6e73d380-1b5e-4279-a9dd-1eff7dd322c3" width="400" alt="Bulk RNA-seq workflow"/>
 
 
   <p align="justify">
@@ -90,7 +90,8 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
      <br>
 
-     ![QC](https://github.com/user-attachments/assets/4d55ecb6-6277-4971-bd4e-e25fe0e0eb29)
+<img src="https://github.com/user-attachments/assets/4d55ecb6-6277-4971-bd4e-e25fe0e0eb29" width="700" alt="Quality controll"/>
+
 
      <p align="justify">
      <em><strong>Figure:</strong> Quality Control Module Outputs.</em>  
@@ -123,7 +124,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
   <br>
 
-  ![Figure5](https://github.com/user-attachments/assets/2f00b130-a2de-49c8-b8d9-887fb0cfc140)
+<img src="https://github.com/user-attachments/assets/2f00b130-a2de-49c8-b8d9-887fb0cfc140" width="700" alt="Exploratory Data Analysis"/>
 
   <p align="justify">
   <em><strong>Figure:</strong> Exploratory Data Analysis Module Outputs.</em>  
@@ -148,7 +149,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
   <br>
 
-![Figure6](https://github.com/user-attachments/assets/a1610c8b-5c90-4dcf-ac0d-6d546372ea99)
+<img src="https://github.com/user-attachments/assets/a1610c8b-5c90-4dcf-ac0d-6d546372ea99" width="400" alt="Differential Expression Genes (DEGs) analysis"/>
 
 
   <p align="justify">
