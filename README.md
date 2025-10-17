@@ -90,7 +90,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
 
   <br>
 
-<img src="https://github.com/user-attachments/assets/d67cf139-1c9b-45c3-af46-a25f5acb484b" width="400" alt="Quality Control Module Outputs"/>
+<img src="https://github.com/user-attachments/assets/d67cf139-1c9b-45c3-af46-a25f5acb484b" width="700" alt="Quality Control Module Outputs"/>
 
   <p align="justify">
   <em><strong>Figure:</strong> Quality Control Module Outputs.</em>  
