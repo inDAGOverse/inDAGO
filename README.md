@@ -35,8 +35,7 @@ Thanks to optimized, parallelized code, inDAGO runs efficiently on a standard la
    Identify differentially expressed genes/transcripts across comparisons
 
 <details>
-  <summary>**📦 INSTALLATION INSTRUCTIONS** ▸</summary>
-
+   <summary><strong>📦 INSTALLATION INSTRUCTIONS</strong> ▸</summary>
 
 ## How to install inDAGO from CRAN or GitHub
 
@@ -88,8 +87,8 @@ devtools::install_github("inDAGOverse/inDAGO")
 install.packages("inDAGO")
 
 ```
-
-## 🚀 How to load and launch the app
+<details>
+   <summary><strong>🚀 HOW TO LOAD AND LAUNCH THE APP</strong> ▸</summary>
 
 ```r
 # Load and launch the app
@@ -97,8 +96,9 @@ library(inDAGO)
 inDAGO::inDAGO()
 
 ```
-
-## ⚙️ Tips for a seamless execution
+<details>
+   <summary><strong>⚙️ TIPS FOR A SEAMLESS EXECUTION</strong> ▸</summary>
+   
 To ensure execution during long time-consuming steps such as reference‑based alignment:
 
 💤 Disable sleep mode to keep your system active.
@@ -107,7 +107,8 @@ To ensure execution during long time-consuming steps such as reference‑based a
 
 These simple precautions can help avoid incomplete runs and unnecessary power consumption.
 
-## 👥 Authors & Acknowledgements
+<details>
+   <summary><strong>👥 AUTHORS & ACKNOWLEDGEMENTS</strong> ▸</summary>
 
 - **Authors / Creators**  
   - Carmine Fruggiero (c.fruggiero@tigem.it)  
@@ -119,6 +120,3 @@ These simple precautions can help avoid incomplete runs and unnecessary power co
 - **Project Supervisor**  
   - Nunzio D'Agostino (nunzio.dagostino@unina.it)
 
-## 📄 Article (Work in Progress)
-
-- Link: [Draft manuscript (coming soon)](URL)
