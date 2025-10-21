@@ -72,7 +72,6 @@ Suggests:
     limma,
     oompaBase,
     palr,
-    Rfastp,
     Rsamtools,
     Rsubread,
     rtracklayer,
