@@ -17,7 +17,7 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
 
   <br>
 
-<img src="https://github.com/user-attachments/assets/e01bd220-7d81-492b-893d-086b2a49f641" width="700" alt="Dual RNA-seq workflow"/>
+<img src="https://github.com/user-attachments/assets/942d4884-bf73-4f21-b289-ef881ffb9584" width="700" alt="Dual RNA-seq workflow"/>
 
 
   <p align="justify">
@@ -38,7 +38,7 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
   <br>
   <strong>Step 7:</strong> Identification of differentially expressed genes (DEGs) with <code>edgeR</code> and <code>HTSFilter</code>.  
   </p>
-
+  The two organism genomes are shown in different colors (yellow and blue). When the organisms are analyzed separately, their genomes are also displayed separately in the workflow as distinct block lines; otherwise, they are shown as connected.
 </details>
 
 <details>
