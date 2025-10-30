@@ -17,7 +17,7 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
 
   <br>
 
-<img src="https://github.com/user-attachments/assets/f2bd0532-af8e-4f5c-810f-aebfa071b2fd" width="700" alt="Dual RNA-seq workflow"/>
+<img src="https://github.com/user-attachments/assets/b70cdfa6-18ed-4e2e-90ce-5a93092b1f50" width="700" alt="Dual RNA-seq workflow"/>
 
 
   <p align="justify">
@@ -45,8 +45,8 @@ For **dual RNA-seq**, users can choose between two alignment strategies:
   <summary><strong>📊 See bulk RNA-seq workflow</strong> ▸</summary>
 
   <br>
-  
-<img src="https://github.com/user-attachments/assets/509e611f-1c3a-42e4-b704-6eada59b4f4c" width="400" alt="Bulk RNA-seq workflow"/>
+
+<img src="https://github.com/user-attachments/assets/d4f2697f-f4e7-4b0d-a24f-e867a5fa8b57" width="400" alt="Bulk RNA-seq workflow"/>
 
 
   <p align="justify">
