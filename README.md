@@ -285,4 +285,7 @@ These simple precautions can help avoid incomplete runs and unnecessary power co
 
 - **Project Supervisor**  
   - Nunzio D'Agostino (nunzio.dagostino@unina.it)
+ 
+If you find this code useful in your research, please cite:
+Aufiero G, Fruggiero C and D’Agostino N (2025) inDAGO: a user-friendly interface for seamless dual and bulk RNA-Seq analysis. Front. Bioinform. 5:1696823. doi: 10.3389/fbinf.2025.1696823
 </details>
