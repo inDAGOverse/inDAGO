@@ -279,6 +279,7 @@ These simple precautions can help avoid incomplete runs and unnecessary power co
 - **Authors / Creators**  
   - Carmine Fruggiero (c.fruggiero@tigem.it)  
   - Gaetano Aufiero (gaetano.aufiero@unina.it)
+  - Developed by Ingenita team (https://www.ingenitabiotech.com/)
 
 - **Designated maintainer for CRAN Repository**  
   - Carmine Fruggiero (c.fruggiero@tigem.it)
